@@ -1,0 +1,34 @@
+{
+    "@context": "\/api\/3\/contexts\/Role",
+    "@id": "\/api\/3\/roles\/21d7a7c6-9d68-438f-b732-e8950c5f745b",
+    "@type": "Role",
+    "description": "Essentially the root user, use carefully",
+    "name": "Full App Permissions",
+    "modulePermissions": {
+        "51": {
+            "@id": "\/api\/3\/module_permissions\/10ca8cca-fe66-4b5e-a527-18155bb7907f",
+            "@type": "ModulePermission",
+            "canCreate": true,
+            "canExecute": true,
+            "canRead": true,
+            "canUpdate": true,
+            "canDelete": true,
+            "fieldPermissions": [],
+            "module": "employeewatchlist",
+            "uuid": "10ca8cca-fe66-4b5e-a527-18155bb7907f"
+        },
+        "52": {
+            "@id": "\/api\/3\/module_permissions\/84b458a4-d013-4900-94ea-6753d928fea3",
+            "@type": "ModulePermission",
+            "canCreate": true,
+            "canExecute": true,
+            "canRead": true,
+            "canUpdate": true,
+            "canDelete": true,
+            "fieldPermissions": [],
+            "module": "sensitivefile",
+            "uuid": "84b458a4-d013-4900-94ea-6753d928fea3"
+        }
+    },
+    "uuid": "21d7a7c6-9d68-438f-b732-e8950c5f745b"
+}

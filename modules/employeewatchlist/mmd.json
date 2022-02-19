@@ -1,0 +1,150 @@
+{
+    "@context": "\/api\/3\/contexts\/StagingModelMetadata",
+    "@id": "\/api\/3\/staging_model_metadatas\/71f77410-c9dd-478c-a7da-a3837b770097",
+    "@type": "StagingModelMetadata",
+    "type": "employeewatchlist",
+    "parentType": null,
+    "tableName": "employeewatchlist",
+    "ownable": true,
+    "userOwnable": false,
+    "queueable": false,
+    "trackable": true,
+    "taggable": true,
+    "peerReplicable": false,
+    "defaultSort": [],
+    "uniqueConstraint": [],
+    "indexable": true,
+    "writable": true,
+    "attributes": [
+        {
+            "@id": "\/api\/3\/attribute_metadatas\/f0e3eeb2-15d5-4ff8-a309-add68dd5cb0f",
+            "@type": "AttributeMetadata",
+            "type": "string",
+            "name": "employeeName",
+            "length": 0,
+            "orderIndex": 1,
+            "formType": "text",
+            "dataSource": [],
+            "searchable": false,
+            "peerReplicable": true,
+            "system": false,
+            "encrypted": false,
+            "gridColumn": false,
+            "collection": false,
+            "inversedField": null,
+            "ownsRelationship": false,
+            "validation": {
+                "required": true,
+                "minlength": 0,
+                "maxlength": 10485761
+            },
+            "bulkAction": {
+                "allow": false,
+                "buttonText": "",
+                "buttonIcon": "",
+                "buttonClass": "btn btn-default btn-sm"
+            },
+            "dataSourceFilters": [],
+            "defaultValue": "",
+            "tooltip": "",
+            "visibility": true,
+            "htmlEscape": false,
+            "orphanRemoval": false,
+            "readable": true,
+            "writeable": true,
+            "identifier": false,
+            "unique": false,
+            "recommend": false,
+            "sattrib": "\/api\/3\/staging_model_metadatas\/71f77410-c9dd-478c-a7da-a3837b770097",
+            "uuid": "f0e3eeb2-15d5-4ff8-a309-add68dd5cb0f",
+            "recordTags": [],
+            "displayName": "{{ employeeName }}",
+            "descriptions": {
+                "singular": "Employee Name"
+            }
+        },
+        {
+            "@id": "\/api\/3\/attribute_metadatas\/b42da773-58d9-4c40-9838-c91c7b5a612d",
+            "@type": "AttributeMetadata",
+            "type": "picklists",
+            "name": "status",
+            "length": 0,
+            "orderIndex": 2,
+            "formType": "picklist",
+            "dataSource": {
+                "model": "picklists",
+                "query": {
+                    "logic": "AND",
+                    "filters": [
+                        {
+                            "field": "listName__name",
+                            "operator": "eq",
+                            "value": "EmployeeStatus"
+                        }
+                    ],
+                    "sort": [
+                        {
+                            "field": "orderIndex",
+                            "direction": "ASC"
+                        }
+                    ]
+                }
+            },
+            "searchable": false,
+            "peerReplicable": true,
+            "system": false,
+            "encrypted": false,
+            "gridColumn": true,
+            "collection": false,
+            "inversedField": null,
+            "ownsRelationship": false,
+            "validation": {
+                "required": false,
+                "minlength": 0,
+                "maxlength": 10485761
+            },
+            "bulkAction": {
+                "allow": false,
+                "buttonText": "",
+                "buttonIcon": "",
+                "buttonClass": "btn btn-default btn-sm"
+            },
+            "dataSourceFilters": [],
+            "defaultValue": null,
+            "tooltip": "",
+            "visibility": true,
+            "htmlEscape": false,
+            "orphanRemoval": false,
+            "readable": true,
+            "writeable": true,
+            "identifier": false,
+            "unique": false,
+            "recommend": false,
+            "sattrib": "\/api\/3\/staging_model_metadatas\/71f77410-c9dd-478c-a7da-a3837b770097",
+            "uuid": "b42da773-58d9-4c40-9838-c91c7b5a612d",
+            "recordTags": [],
+            "displayName": "{{ status }}",
+            "descriptions": {
+                "singular": "Employee Status"
+            }
+        }
+    ],
+    "system": false,
+    "module": "employeewatchlist",
+    "softDeleteable": false,
+    "archivable": false,
+    "paused": false,
+    "partitionBy": "modifyDate",
+    "archivalCriteria": {
+        "keep_primary_data_for": 24,
+        "delete_primary_data_after": 60
+    },
+    "archivalFilters": [],
+    "uuid": "71f77410-c9dd-478c-a7da-a3837b770097",
+    "recordTags": [],
+    "displayName": "Employee Watchlist",
+    "descriptions": {
+        "plural": "Employee Watchlist",
+        "singular": "employeewatchlist"
+    }
+}
