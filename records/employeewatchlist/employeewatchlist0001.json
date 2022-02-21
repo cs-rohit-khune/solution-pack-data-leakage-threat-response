@@ -1,0 +1,14 @@
+[
+    {
+        "@type": "Employeewatchlist",
+        "employeeName": "Peter Gibbons",
+        "status": "\/api\/3\/picklists\/438373e1-be6d-464e-89b0-3061697a6dff",
+        "uuid": "be2bb3a9-a271-4d5c-9e41-ae6effd00524",
+        "createUser": "\/api\/3\/appliances\/57545210-2adc-472b-a24f-2df6ee8dfe63",
+        "createDate": 1645296036,
+        "modifyUser": "\/api\/3\/appliances\/57545210-2adc-472b-a24f-2df6ee8dfe63",
+        "modifyDate": 1645296036,
+        "id": "1",
+        "recordTags": []
+    }
+]

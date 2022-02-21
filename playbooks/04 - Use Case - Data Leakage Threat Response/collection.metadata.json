@@ -1,0 +1,16 @@
+{
+    "@context": "\/api\/3\/contexts\/WorkflowCollection",
+    "@type": "WorkflowCollection",
+    "name": "04 - Use Case - Data Leakage Threat Response",
+    "description": null,
+    "visible": true,
+    "image": null,
+    "uuid": "67319d70-c960-4624-991a-8828a3f29ce3",
+    "id": 65,
+    "createUser": "\/api\/3\/people\/3451141c-bac6-467c-8d72-85e0fab569ce",
+    "createDate": 1645297690.367693,
+    "modifyUser": "\/api\/3\/people\/3451141c-bac6-467c-8d72-85e0fab569ce",
+    "modifyDate": 1645297690.367693,
+    "recordTags": [],
+    "deletedAt": null
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "id": 15,
+        "name": "Demo_mode",
+        "value": "true",
+        "default_value": "true"
+    },
+    {
+        "id": 7,
+        "name": "Server_fqhn",
+        "value": "tenant.fortinet.com",
+        "default_value": null
+    }
+]
