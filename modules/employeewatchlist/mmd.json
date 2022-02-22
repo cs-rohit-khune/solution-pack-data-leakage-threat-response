@@ -57,7 +57,10 @@
             "recommend": false,
             "sattrib": "\/api\/3\/staging_model_metadatas\/71f77410-c9dd-478c-a7da-a3837b770097",
             "uuid": "f0e3eeb2-15d5-4ff8-a309-add68dd5cb0f",
-            "recordTags": [],
+            "recordTags": [
+                "FSRSolutionPack",
+                "dataLeakageThreatResponse-1.0.0"
+            ],
             "displayName": "{{ employeeName }}",
             "descriptions": {
                 "singular": "Employee Name"
@@ -122,7 +125,10 @@
             "recommend": false,
             "sattrib": "\/api\/3\/staging_model_metadatas\/71f77410-c9dd-478c-a7da-a3837b770097",
             "uuid": "b42da773-58d9-4c40-9838-c91c7b5a612d",
-            "recordTags": [],
+            "recordTags": [
+                "FSRSolutionPack",
+                "dataLeakageThreatResponse-1.0.0"
+            ],
             "displayName": "{{ status }}",
             "descriptions": {
                 "singular": "Employee Status"
@@ -141,7 +147,10 @@
     },
     "archivalFilters": [],
     "uuid": "71f77410-c9dd-478c-a7da-a3837b770097",
-    "recordTags": [],
+    "recordTags": [
+                "FSRSolutionPack",
+                "dataLeakageThreatResponse-1.0.0"
+            ],
     "displayName": "Employee Watchlist",
     "descriptions": {
         "plural": "Employee Watchlist",

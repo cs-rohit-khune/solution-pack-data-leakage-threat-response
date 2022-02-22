@@ -57,7 +57,10 @@
             "recommend": false,
             "sattrib": "\/api\/3\/staging_model_metadatas\/4dafdc00-12f1-441e-aee6-8e2cf22dabe4",
             "uuid": "e14819da-4e0a-4104-99a7-b984375ecbff",
-            "recordTags": [],
+            "recordTags": [
+                "FSRSolutionPack",
+                "dataLeakageThreatResponse-1.0.0"
+            ],
             "displayName": "{{ configuration }}",
             "descriptions": {
                 "singular": "Configuration"
@@ -102,7 +105,10 @@
             "recommend": false,
             "sattrib": "\/api\/3\/staging_model_metadatas\/4dafdc00-12f1-441e-aee6-8e2cf22dabe4",
             "uuid": "4787107e-6054-4a76-853f-8768ca662824",
-            "recordTags": [],
+            "recordTags": [
+                "FSRSolutionPack",
+                "dataLeakageThreatResponse-1.0.0"
+            ],
             "displayName": "{{ comments }}",
             "descriptions": {
                 "singular": "Comments"
@@ -150,7 +156,10 @@
             "recommend": false,
             "sattrib": "\/api\/3\/staging_model_metadatas\/4dafdc00-12f1-441e-aee6-8e2cf22dabe4",
             "uuid": "b0aad5bd-d598-459b-88f6-640a391863bc",
-            "recordTags": [],
+            "recordTags": [
+                "FSRSolutionPack",
+                "dataLeakageThreatResponse-1.0.0"
+            ],
             "displayName": "{{ title }}",
             "descriptions": {
                 "singular": "Title"
@@ -197,7 +206,10 @@
             "recommend": false,
             "sattrib": "\/api\/3\/staging_model_metadatas\/4dafdc00-12f1-441e-aee6-8e2cf22dabe4",
             "uuid": "b0b7de86-3899-4728-aad0-f6daf921b14a",
-            "recordTags": [],
+            "recordTags": [
+                "FSRSolutionPack",
+                "dataLeakageThreatResponse-1.0.0"
+            ],
             "displayName": "{{ description }}",
             "descriptions": {
                 "singular": "Description"
@@ -244,7 +256,10 @@
             "recommend": false,
             "sattrib": "\/api\/3\/staging_model_metadatas\/4dafdc00-12f1-441e-aee6-8e2cf22dabe4",
             "uuid": "1fd34440-f520-4e72-981a-6365fa43681c",
-            "recordTags": [],
+            "recordTags": [
+                "FSRSolutionPack",
+                "dataLeakageThreatResponse-1.0.0"
+            ],
             "displayName": "{{ steps }}",
             "descriptions": {
                 "singular": "Steps"
@@ -291,7 +306,10 @@
             "recommend": false,
             "sattrib": "\/api\/3\/staging_model_metadatas\/4dafdc00-12f1-441e-aee6-8e2cf22dabe4",
             "uuid": "a2146975-23df-44e6-b9c5-41f767e68095",
-            "recordTags": [],
+            "recordTags": [
+                "FSRSolutionPack",
+                "dataLeakageThreatResponse-1.0.0"
+            ],
             "displayName": "{{ createdAlertsID }}",
             "descriptions": {
                 "singular": "Created Alerts ID"
@@ -310,7 +328,10 @@
     },
     "archivalFilters": [],
     "uuid": "4dafdc00-12f1-441e-aee6-8e2cf22dabe4",
-    "recordTags": [],
+    "recordTags": [
+                "FSRSolutionPack",
+                "dataLeakageThreatResponse-1.0.0"
+            ],
     "displayName": "{{ title }}",
     "descriptions": {
         "singular": "Scenario",

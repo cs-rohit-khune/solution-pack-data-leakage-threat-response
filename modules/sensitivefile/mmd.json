@@ -57,7 +57,10 @@
             "recommend": false,
             "sattrib": "\/api\/3\/staging_model_metadatas\/3649a0ea-9c4a-4f07-bb69-ccbb3326284c",
             "uuid": "bfedaf05-c270-48e1-9341-f5c76c61c008",
-            "recordTags": [],
+            "recordTags": [
+                "FSRSolutionPack",
+                "dataLeakageThreatResponse-1.0.0"
+            ],
             "displayName": "{{ fileName }}",
             "descriptions": {
                 "singular": "File Name"
@@ -104,7 +107,10 @@
             "recommend": false,
             "sattrib": "\/api\/3\/staging_model_metadatas\/3649a0ea-9c4a-4f07-bb69-ccbb3326284c",
             "uuid": "6404dcad-810e-4613-a6c5-9479b799a899",
-            "recordTags": [],
+            "recordTags": [
+                "FSRSolutionPack",
+                "dataLeakageThreatResponse-1.0.0"
+            ],
             "displayName": "{{ location }}",
             "descriptions": {
                 "singular": "File Location"
@@ -151,7 +157,10 @@
             "recommend": false,
             "sattrib": "\/api\/3\/staging_model_metadatas\/3649a0ea-9c4a-4f07-bb69-ccbb3326284c",
             "uuid": "37b30485-8daa-4bb3-a0a5-347a0c8adeed",
-            "recordTags": [],
+            "recordTags": [
+                "FSRSolutionPack",
+                "dataLeakageThreatResponse-1.0.0"
+            ],
             "displayName": "{{ owner }}",
             "descriptions": {
                 "singular": "Owner"
@@ -198,7 +207,10 @@
             "recommend": false,
             "sattrib": "\/api\/3\/staging_model_metadatas\/3649a0ea-9c4a-4f07-bb69-ccbb3326284c",
             "uuid": "6d1bfc00-4a3f-49ba-a686-262528158f7a",
-            "recordTags": [],
+            "recordTags": [
+                "FSRSolutionPack",
+                "dataLeakageThreatResponse-1.0.0"
+            ],
             "displayName": "{{ typeOfFile }}",
             "descriptions": {
                 "singular": "Type Of File"
@@ -217,7 +229,10 @@
     },
     "archivalFilters": [],
     "uuid": "3649a0ea-9c4a-4f07-bb69-ccbb3326284c",
-    "recordTags": [],
+    "recordTags": [
+                "FSRSolutionPack",
+                "dataLeakageThreatResponse-1.0.0"
+            ],
     "displayName": "{{fileName}}",
     "descriptions": {
         "singular": "Sensitive File",
