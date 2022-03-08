@@ -21,6 +21,7 @@
         }
     ],
     "prerequisite": [],
+    "certified": "true",
     "publisher": "Fortinet",
     "description": "Solution pack investigates data leakage alert ingested from Symantec CloudSOC",
     "summary": null,
