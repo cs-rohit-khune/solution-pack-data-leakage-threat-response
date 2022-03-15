@@ -1144,9 +1144,7 @@
     "uuid": "aafbde8c-4519-4f5d-9b75-4e939deda700",
     "recordTags": [
         "PostCreate",
-        "Alerts",
-        "FSRSolutionPack",
-        "dataLeakageThreatResponse-1.0.0"
+        "Alerts"
     ],
     "id": "617",
     "createUser": "\/api\/3\/people\/3451141c-bac6-467c-8d72-85e0fab569ce",

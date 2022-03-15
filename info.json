@@ -20,16 +20,14 @@
             "minVersion": null
         }
     ],
-    "prerequisite": [],
+    "prerequisite": "",
     "certified": "true",
     "publisher": "Fortinet",
     "description": "Solution pack investigates data leakage alert ingested from Symantec CloudSOC",
-    "summary": null,
     "help": "https:\/\/github.com\/fortinet-fortisoar\/solution-pack-data-leakage-threat-response\/blob\/develop\/README.md",
     "category": [],
     "supportInfo": "support@fortinet.com",
     "iconLarge": null,
-    "recordTags": [],
     "fsrMinCompatibility": "7.2.0",
     "date": "2022-02-19T19:21:24+00:00",
     "exported_from": "tenant.fortinet.com",
@@ -45,10 +43,6 @@
                 "name": "Employee Watchlist",
                 "apiName": "employeewatchlist"
             },
-            "scenario": {
-                "name": "Scenario",
-                "apiName": "scenario"
-            },
             "sensitivefile": {
                 "name": "Sensitive Files",
                 "apiName": "sensitivefile"
@@ -56,11 +50,6 @@
         },
         "viewTemplates": {
             "employeewatchlist": [
-                "list",
-                "detail",
-                "form"
-            ],
-            "scenario": [
                 "list",
                 "detail",
                 "form"
@@ -87,12 +76,6 @@
                 "name": "Demo_mode",
                 "value": "true",
                 "default_value": "true"
-            },
-            {
-                "id": 7,
-                "name": "Server_fqhn",
-                "value": "tenant.fortinet.com",
-                "default_value": null
             }
         ],
         "connectors": [
@@ -102,19 +85,9 @@
                 "version": "2.2.0"
             },
             {
-                "name": "SMTP",
-                "apiName": "smtp",
-                "version": "2.4.3"
-            },
-            {
                 "name": "Symantec DLP",
                 "apiName": "symantec-dlp",
                 "version": "2.2.0"
-            },
-            {
-                "name": "Utilities",
-                "apiName": "cyops_utilities",
-                "version": "3.2.1"
             }
         ],
         "recordSets": {
