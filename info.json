@@ -60,6 +60,11 @@
                 "form"
             ]
         },
+        "views": {
+            "navigation": [
+                "Resources"
+            ]
+        },
         "roles": [
             {
                 "name": "Full App Permissions"
@@ -81,19 +86,29 @@
         "connectors": [
             {
                 "name": "Active Directory",
-                "apiName": "activedirectory",
-                "version": "2.2.0"
+                "apiName": "activedirectory"
             },
             {
                 "name": "Symantec DLP",
-                "apiName": "symantec-dlp",
-                "version": "2.2.0"
+                "apiName": "symantec-dlp"
             }
         ],
-        "recordSets": {
-            "employeewatchlist": 1,
-            "scenario": 1,
-            "sensitivefile": 1
-        }
+        "recordSets": [
+            {
+                "name": "Employee Watchlist",
+                "apiName": "employeewatchlist",
+                "count": 1
+            },
+            {
+                "name": "Scenario",
+                "apiName": "scenario",
+                "count": 1
+            },
+            {
+                "name": "Sensitive Files",
+                "apiName": "sensitivefile",
+                "count": 1
+            }
+        ]
     }
 }

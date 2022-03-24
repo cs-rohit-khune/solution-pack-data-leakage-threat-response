@@ -1,0 +1,77 @@
+{
+    "@context": "\/api\/3\/contexts\/SystemViewTemplate",
+    "@type": "SystemViewTemplate",
+    "type": "app",
+    "config": {
+        "navigation": [
+            {
+                "title": "Resources",
+                "icon": "icon icon-resources",
+                "items": [
+                    {
+                        "title": "Attachments",
+                        "icon": "icon icon-attachments",
+                        "require": {
+                            "module": "attachments",
+                            "action": "read"
+                        },
+                        "state": {
+                            "name": "main.modules.list",
+                            "parameters": {
+                                "module": "attachments"
+                            }
+                        },
+                        "editMode": false
+                    },
+                    {
+                        "title": "Email Templates",
+                        "require": {
+                            "module": "email_templates",
+                            "action": "read"
+                        },
+                        "state": {
+                            "name": "main.modules.list",
+                            "parameters": {
+                                "module": "email_templates"
+                            }
+                        },
+                        "editMode": false,
+                        "icon": "icon icon-email-templates"
+                    },
+                    {
+                        "title": "Employee Watchlist",
+                        "require": {
+                            "module": "employeewatchlist",
+                            "action": "read"
+                        },
+                        "state": {
+                            "name": "main.modules.list",
+                            "parameters": {
+                                "module": "employeewatchlist"
+                            }
+                        },
+                        "icon": "fa fa-users",
+                        "editMode": false
+                    },
+                    {
+                        "title": "Sensitive Files",
+                        "require": {
+                            "module": "sensitivefile",
+                            "action": "read"
+                        },
+                        "state": {
+                            "name": "main.modules.list",
+                            "parameters": {
+                                "module": "sensitivefile"
+                            }
+                        },
+                        "icon": "fa fa-files-o",
+                        "editMode": false
+                    }
+                ],
+                "editMode": false
+            }
+        ]
+    },
+    "uuid": "navigation"
+}

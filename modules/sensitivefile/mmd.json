@@ -1,6 +1,6 @@
 {
     "@context": "\/api\/3\/contexts\/StagingModelMetadata",
-    "@id": "\/api\/3\/staging_model_metadatas\/3649a0ea-9c4a-4f07-bb69-ccbb3326284c",
+    "@id": "\/api\/3\/staging_model_metadatas\/5cb244f2-0f7a-4ca2-ac4c-49efba11feb8",
     "@type": "StagingModelMetadata",
     "type": "sensitivefile",
     "parentType": null,
@@ -55,12 +55,7 @@
             "identifier": false,
             "unique": false,
             "recommend": false,
-            "sattrib": "\/api\/3\/staging_model_metadatas\/3649a0ea-9c4a-4f07-bb69-ccbb3326284c",
             "uuid": "bfedaf05-c270-48e1-9341-f5c76c61c008",
-            "recordTags": [
-                "FSRSolutionPack",
-                "dataLeakageThreatResponse-1.0.0"
-            ],
             "displayName": "{{ fileName }}",
             "descriptions": {
                 "singular": "File Name"
@@ -105,12 +100,7 @@
             "identifier": false,
             "unique": false,
             "recommend": false,
-            "sattrib": "\/api\/3\/staging_model_metadatas\/3649a0ea-9c4a-4f07-bb69-ccbb3326284c",
             "uuid": "6404dcad-810e-4613-a6c5-9479b799a899",
-            "recordTags": [
-                "FSRSolutionPack",
-                "dataLeakageThreatResponse-1.0.0"
-            ],
             "displayName": "{{ location }}",
             "descriptions": {
                 "singular": "File Location"
@@ -155,12 +145,7 @@
             "identifier": false,
             "unique": false,
             "recommend": false,
-            "sattrib": "\/api\/3\/staging_model_metadatas\/3649a0ea-9c4a-4f07-bb69-ccbb3326284c",
             "uuid": "37b30485-8daa-4bb3-a0a5-347a0c8adeed",
-            "recordTags": [
-                "FSRSolutionPack",
-                "dataLeakageThreatResponse-1.0.0"
-            ],
             "displayName": "{{ owner }}",
             "descriptions": {
                 "singular": "Owner"
@@ -205,12 +190,7 @@
             "identifier": false,
             "unique": false,
             "recommend": false,
-            "sattrib": "\/api\/3\/staging_model_metadatas\/3649a0ea-9c4a-4f07-bb69-ccbb3326284c",
             "uuid": "6d1bfc00-4a3f-49ba-a686-262528158f7a",
-            "recordTags": [
-                "FSRSolutionPack",
-                "dataLeakageThreatResponse-1.0.0"
-            ],
             "displayName": "{{ typeOfFile }}",
             "descriptions": {
                 "singular": "Type Of File"
@@ -228,11 +208,7 @@
         "delete_primary_data_after": 60
     },
     "archivalFilters": [],
-    "uuid": "3649a0ea-9c4a-4f07-bb69-ccbb3326284c",
-    "recordTags": [
-                "FSRSolutionPack",
-                "dataLeakageThreatResponse-1.0.0"
-            ],
+    "uuid": "5cb244f2-0f7a-4ca2-ac4c-49efba11feb8",
     "displayName": "{{fileName}}",
     "descriptions": {
         "singular": "Sensitive File",
