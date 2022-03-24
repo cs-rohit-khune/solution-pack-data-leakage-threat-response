@@ -10,13 +10,40 @@
                         "widgets": [
                             {
                                 "type": "grid",
-                                "config": []
+                                "config": {
+                                    "wid": "27bdf66e-38cc-4cf5-aeeb-452cb39eab83",
+                                    "module": "employeewatchlist",
+                                    "columns": [
+                                        "id",
+                                        "employeeName",
+                                        "status"
+                                    ],
+                                    "expandableCol": [],
+                                    "relationshipField": [],
+                                    "checkboxStatus": false,
+                                    "editableFields": false,
+                                    "actionButtons": [],
+                                    "query": {
+                                        "sort": [],
+                                        "limit": 30,
+                                        "logic": "AND",
+                                        "filters": []
+                                    }
+                                }
                             }
-                        ]
+                        ],
+                        "style": "col-lg-12"
                     }
-                ]
+                ],
+                "wid": "c35f97c1-9ed1-4905-8dcf-5e220f029a20",
+                "_collapsed": false
             }
-        ]
+        ],
+        "wid": "1d354f80-181f-4569-8275-3828956ea90b",
+        "metadata": {
+            "customTemplateTitle": "Employee Watchlist",
+            "originalTemplateTitle": "Employee Watchlist"
+        }
     },
     "uuid": "modules-employeewatchlist-list"
 }
