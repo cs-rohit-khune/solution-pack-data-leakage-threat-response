@@ -21,17 +21,15 @@
         }
     ],
     "prerequisite": "",
-    "certified": "true",
+    "certified": "false",
     "publisher": "Fortinet",
-    "description": "Solution pack investigates data leakage alert ingested from Symantec CloudSOC",
+    "description": "Solution pack investigates data leakage alert ingested from Symantec CloudSOC. Few important integrations used in the solution pack are Microsoft Active Directory, Symantec CloudSOC and Symantec DLP.",
     "help": "https:\/\/github.com\/fortinet-fortisoar\/solution-pack-data-leakage-threat-response\/blob\/develop\/README.md",
     "category": [],
-    "supportInfo": "support@fortinet.com",
+    "supportInfo": "",
     "iconLarge": null,
     "fsrMinCompatibility": "7.2.0",
-    "date": "2022-02-19T19:21:24+00:00",
-    "exported_from": "tenant.fortinet.com",
-    "exported_by": "CS Admin",
+    "date": "2022-04-08T13:23:18+00:00",
     "contents": {
         "picklistNames": [
             {
@@ -49,16 +47,24 @@
             }
         },
         "viewTemplates": {
-            "employeewatchlist": [
-                "list",
-                "detail",
-                "form"
-            ],
-            "sensitivefile": [
-                "list",
-                "detail",
-                "form"
-            ]
+            "employeewatchlist": {
+                "name": "Employee Watchlist",
+                "apiName": "employeewatchlist",
+                "views": [
+                    "list",
+                    "detail",
+                    "form"
+                ]
+            },
+            "sensitivefile": {
+                "name": "Sensitive Files",
+                "apiName": "sensitivefile",
+                "views": [
+                    "list",
+                    "detail",
+                    "form"
+                ]
+            }
         },
         "views": {
             "navigation": [
@@ -87,6 +93,10 @@
             {
                 "name": "Active Directory",
                 "apiName": "activedirectory"
+            },
+            {
+                "name": "Symantec CloudSOC",
+                "apiName": "symantec-cloudsoc"
             },
             {
                 "name": "Symantec DLP",
