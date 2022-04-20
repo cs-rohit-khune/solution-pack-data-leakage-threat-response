@@ -35,7 +35,7 @@ Goto generated alert and observe the following:
 - Identify employee watchlist status of user involved in data leakage
 - Identify if the file involved is a sensitive document
 - Initiate containment actions for sensitive document
-- Block the user in AD and investigate if the user involved in any other DLP event
+- Block the user in Microsoft Active Directory and using Symantec DLP investigate if the user involved in any other DLP(Data Leakage Policy) event
 
 ## Prerequisite
 
@@ -52,7 +52,7 @@ Ensure that the below solution packs are deployed:
 
     |**Sr.No.**|**Connector**|
     | :- | :- |
-    |1|Active Directory|
+    |1|Microsoft Active Directory|
     |2|Symantec CloudSOC|
     |3|Symantec DLP|
 
