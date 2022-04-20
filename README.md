@@ -17,14 +17,6 @@ Configure Cloud Access Security Broker(CASB) connector such as Symantec CloudSOC
 
 Refer to Simulation Scenarios - Data Leakage to experience the use case without CASB configuration
 
-This article describes the “Data Leakage Threat Response” Solutions Pack. The solution pack demonstrates the scenarios and use cases around Data Leakage.
-The below scenario demonstrates and generates a demo alert for the Alert.
-
-- An alert is generated once detected a user shares a file externally, which is a violation of policy
-- This triggers an investigation that determines if the employee is on the watchlist and if the file being shared is a sensitive document
-- In case a file is found to be a sensitive document then deactivate the user in AD and revoke file permission
-- Search the incident in DLP and fetch the incident details. Create additional alerts if needed
-
 ### Usage
 
 This Solution Pack ships with the following simulation scenarios. [Refer](https://github.com/fortinet-fortisoar/solution-pack-soc-simulator/blob/develop/docs/solution-pack-guide.md) to Simulate Scenario documentation to understand how to Simulate and Reset Scenario.
